@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.github.vrast</groupId>
+	<artifactId>jwe-client</artifactId>
+	<packaging>jar</packaging>
+	<name>jwe-client</name>
+	<version>0.1-SNAPSHOT</version>
+	<url>http://maven.apache.org</url>
+	<dependencies>
+    	<dependency>
+      		<groupId>org.slf4j</groupId>
+      		<artifactId>slf4j-api</artifactId>
+      		<version>1.7.7</version>
+    	</dependency>
+    	<dependency>
+      		<groupId>org.bitbucket.b_c</groupId>
+      		<artifactId>jose4j</artifactId>
+      		<version>0.6.3</version>
+    	</dependency>
+    	<!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
+		<dependency>
+    		<groupId>commons-codec</groupId>
+    		<artifactId>commons-codec</artifactId>
+    		<version>1.9</version>
+		</dependency>
+	</dependencies>
+</project>
+
